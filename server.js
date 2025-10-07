@@ -7,9 +7,10 @@ const app = express();
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'frontend'))); // frontend folder
 
-// ===== Your Clist.by credentials =====
-const CLIST_USERNAME = 'omkar1872';
-const CLIST_API_KEY = '236ce4698842a5849a375fedd4b899ea23ae20d8';
+// ===== Use environment variables for Clist.by credentials =====
+const CLIST_USERNAME = process.env.CLIST_USERNAME;
+const CLIST_API_KEY = process.env.CLIST_API_KEY;
+
 
 // API to fetch all upcoming contests
 app.get('/contests', async (req, res) => {
