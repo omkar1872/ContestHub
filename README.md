@@ -111,14 +111,16 @@ http://localhost:3000/index.html
 1. The backend (server.js) calls the Clist.by API to get all upcoming contests.
 2. The frontend (index.html + script.js) fetches that data and displays it beautifully in cards.
 3. Users can search contests in real-time by name or date.
+   
    ---
    
 ## 📸 Demo Screenshot
 ### Homepage
-![Homepage](Assets/Screenshot 2025-10-08 131348.png)
+![Homepage](assets/Homepage.png)
 
 ### Search Feature
-![Search](Assets/Screenshot 2025-10-08 131529.png)
+![Search](assets/search.png)
+
 
 ---
 
