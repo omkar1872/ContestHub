@@ -14,6 +14,11 @@ It demonstrates API integration, client/server code, responsive UI, and small pr
 - **Showcase options:** Local demo, recorded video, or static frontend deploy (Hugging Face Spaces / GitHub Pages) using public APIs.
 
 ---
+## Demo Vedio
+[Watch Demo Video]([Watch Demo Video](https://drive.google.com/your-video-link)
+)
+
+---
 
 ## ✨ Features
 
