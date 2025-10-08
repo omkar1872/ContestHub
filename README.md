@@ -15,7 +15,7 @@ It demonstrates API integration, client/server code, responsive UI, and small pr
 
 ---
 ## Demo Vedio
-[Watch Demo Video]([Watch Demo Video](https://drive.google.com/file/d/1-YY7nKZnHcdKcEzoM9MWZHlee8l64zBU/view))
+[![Watch Demo](assets/Homepage.png)](https://drive.google.com/file/d/1-YY7nKZnHcdKcEzoM9MWZHlee8l64zBU/view)
 
 ---
 
