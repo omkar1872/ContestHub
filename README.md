@@ -114,7 +114,12 @@ http://localhost:3000/index.html
    ---
    
 ## 📸 Demo Screenshot
-![ContestHub UI](https://drive.google.com/file/d/1hJmxYZ_HaZZMr4x3AlDQ2gQkP5aIIiJi/view?usp=sharing)
+### Homepage
+![Homepage](Assets/Screenshot 2025-10-08 131348.png)
+
+### Search Feature
+![Search](Assets/Screenshot 2025-10-08 131529.png)
+
 ---
 
  ## 🤝 Contributing
