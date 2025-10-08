@@ -1,66 +1,44 @@
-# 🚀 Contest Tracker Web App
+# 🚀 ContestHub — Upcoming Coding Contests Tracker
 
-A **modern, responsive web application** to track upcoming coding contests from multiple platforms like **Codeforces, LeetCode, AtCoder, CodeChef**, and more. The app fetches real-time contest data from APIs, displays it in a **glassmorphism-style UI**, and provides **search functionality** for easy filtering.
-
----
-
-## 🎯 Project Overview
-
-As a competitive programmer and aspiring software engineer, this project demonstrates:
-
-- **Frontend skills:** HTML, CSS, JavaScript
-- **API integration:** Fetching data from multiple contest APIs
-- **Dynamic rendering:** Display contests as interactive cards
-- **Modern UI/UX:** Glassmorphism effect, gradient backgrounds, hover animations
-- **Search feature:** Quickly find contests by name
-
-This project simulates a **real-world application** where users can track coding events without logging into multiple platforms.
+**ContestHub** is a modern, responsive web app that lists upcoming programming contests (Codeforces, LeetCode, AtCoder, CodeChef, etc.) in a clean card UI.  
+It demonstrates API integration, client/server code, responsive UI, and small production considerations — a compact, resume-ready full-stack project.
 
 ---
 
-## 🌟 Features
+## 🔎 Project Summary
 
-- Fetches upcoming contests from multiple coding platforms
-- Responsive **grid layout** for all devices
-- **Search bar** to filter contests by name
-- **Modern glassmorphism UI** with gradients and hover effects
-- Each contest card shows:
-  - Contest name
-  - Start date & time
-  - Link to the contest
+- **Purpose:** Aggregate and display upcoming coding contests from multiple sources so competitive programmers can quickly see what's next.
+- **Frontend:** HTML, CSS (modern theme), JavaScript (fetch + DOM manipulation).
+- **Backend (optional / recommended):** Node.js + Express — used to proxy and merge contest APIs (recommended when using private API keys like Clist.by).
+- **APIs used:** Clist.by (recommended for reliable coverage, **requires API key**), `kontests.net` (public-ish endpoints for some platforms), Codeforces official API.
+- **Showcase options:** Local demo, recorded video, or static frontend deploy (Hugging Face Spaces / GitHub Pages) using public APIs.
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Features
 
-| Layer | Technology |
-|-------|------------|
-| Frontend | HTML, CSS, JavaScript |
-| Backend | Node.js, Express |
-| API Integration | Clist.by API (multi-platform contests) |
-| Styling | Modern gradient + glassmorphism + responsive design |
-
----
-
-## 📸 Screenshots
-
-**Contest Tracker Interface:**
-
-![Contest Tracker](screenshots/contest-grid.png)
-
-**Search Feature:**
-
-![Search Contests](screenshots/search.png)
-
-*Tip: Add actual screenshots of your app here in the `screenshots` folder.*
+- Fetches and aggregates upcoming contests from multiple platforms
+- Responsive **card grid** UI (modern theme)
+- **Search** to filter contests by name
+- English-only filtering (removes non-English contest names)
+- Easy to run locally (full stack) or deploy frontend-only
 
 ---
 
-## ⚡ How to Run Locally
-
-### 1. Clone the repository
+## 📁 Project Structure
 
 ```bash
-git clone https://github.com/<your-username>/contest-tracker.git
-cd contest-tracker
+contesthub/
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── server.js
+├── package.json
+└── README.md
 
+
+
+  
